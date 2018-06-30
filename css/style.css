@@ -13,3 +13,9 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+#index-banner {
+  background: linear-gradient(45deg, rgba(33, 150, 243, 0.6), rgba(33, 150, 243, 0.1)), url(../img/intro-bg.jpg) center top no-repeat;
+  background-size: cover;
+  position: relative;
+}
