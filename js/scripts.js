@@ -30,6 +30,4 @@ $(document).ready(function(){
         $('#carousel2').carousel('next');
     
     }, 4000);
-
-    $('.scrollspy').scrollSpy();
 });
