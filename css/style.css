@@ -13,6 +13,14 @@ body {
   overflow-x: hidden;
 }
 
+.primary-color {
+  color: #10559c !important;
+}
+
+.bg-color {
+  background-color: #10559c !important;
+}
+
 .icon-block {
   padding: 0 15px;
 }
@@ -22,8 +30,39 @@ body {
 }
 
 #index-banner {
-  background: linear-gradient(45deg, rgba(33, 150, 243, 0.6), rgba(33, 150, 243, 0.1)), url(../img/intro-bg.jpg) center top no-repeat;
+  background: linear-gradient(45deg, rgba(33, 150, 243, 0.6), rgba(33, 150, 243, 0.1)), url(../assets/img/intro-bg.jpg) center top no-repeat;
   background-size: cover;
   position: relative;
   width: 100%;
+}
+
+#video {
+  padding-left: 20px; 
+  padding-right: 20px;
+}
+
+.input-field .prefix.active {
+  color: #10559c !important;
+}
+
+/* label focus color */
+.input-field input:focus + label {
+  color: #10559c !important;
+}
+
+/* label underline focus color */
+.row .input-field input:focus {
+  border-bottom: 1px solid #10559c !important;
+  box-shadow: 0 1px 0 0 #10559c !important
+}
+
+/* label textarea focus color */
+.input-field .materialize-textarea:focus + label {
+  color: #10559c !important;
+}
+
+/* textarea label underline focus color */
+.row .input-field .materialize-textarea:focus {
+  border-bottom: 1px solid #10559c !important;
+  box-shadow: 0 1px 0 0 #10559c !important
 }
