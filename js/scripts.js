@@ -32,6 +32,4 @@ $(document).ready(function(){
     }, 4000);
 
     $('.modal').modal();
-
-    $('select').formSelect();
 });
