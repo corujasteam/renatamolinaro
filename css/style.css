@@ -47,6 +47,11 @@ body {
   padding-top: 0;
 }
 
+#aplicativos {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
 .input-field .prefix.active {
   color: #10559c !important;
 }
