@@ -32,4 +32,7 @@ $(document).ready(function(){
     }, 4000);
 
     $('.modal').modal();
+
+    var data = new Date();
+    document.getElementById("data").innerHTML = data.toLocaleDateString();
 });
