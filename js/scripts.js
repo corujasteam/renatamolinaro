@@ -32,7 +32,6 @@ $(document).ready(function(){
     }, 4000);
 
     $('.modal').modal();
-    $('select').formSelect();
 
     var data = new Date();
     document.getElementById("data").innerHTML = data.toLocaleDateString();
