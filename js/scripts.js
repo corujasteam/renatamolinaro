@@ -17,7 +17,7 @@ $(document).ready(function(){
  
         $('#carousel').carousel('next');
     
-    }, 1000);
+    }, 3000);
 
     $('#carousel2').carousel(
         {
