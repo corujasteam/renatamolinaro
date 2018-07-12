@@ -1,11 +1,11 @@
 $(document).ready(function(){
-    // $.mask.definitions['~'] = "[+-]";
-    // $("#celular").mask("(99) 99999-9999");
+    $.mask.definitions['~'] = "[+-]";
+    $("#celular").mask("(99) 99999-9999");
     
-    // setCursor()
-    // function setCursor() {
-    //     $('#celular').setCursorPosition(1);
-    // }
+    setCursor()
+    function setCursor() {
+        $('#celular').setCursorPosition(1);
+    }
 
     $('#carousel').carousel(
         {
