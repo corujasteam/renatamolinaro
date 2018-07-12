@@ -116,16 +116,27 @@
 
           <div class="row center">
             <div class="input-field">
-              <input type="hidden" name="_next" value="#" />
+              <input type="hidden" name="_next" value="#modal1" />
               <input type="hidden" name="_subject" value="Site Renata Molinaro" />
               <input type="hidden" name="_language" value="pt-BR" />
               
-              <button class="btn waves-effect waves-light red" type="submit" value="send"><b>Enviar</b>
+              <button class="btn waves-effect waves-light bg-color" type="submit" value="send"><b>Enviar</b>
                 <i class="material-icons right">send</i>
               </button>
             </div>
           </div>
         </form>
+
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>A bunch of text</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -166,132 +177,64 @@
         <h3 class="black-text"> Dúvidas? Entre em contato com o meu time! </h3>
         <div class="row">
             <div class="col s12 m4">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="./assets/img/camila.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Camila Belliard <br/>
-                            <small><em><a class="primary-color">Diretora de Marketing</a></em></small>
-                        </span>
-                        <p class="center">
-                          <a href="http://bit.ly/WhastAppDaCamilaBelliard" target="new" class="bg-color waves-effect waves-light btn-small">
-                            <i class="fab fa-whatsapp"> (21) 99041-2825</i>
-                          </a>
-                        </p>
-                    </div>
+              <div class="card card-avatar">
+                <div class="waves-effect waves-block waves-light">
+                    <img class="activator" src="./assets/img/camila.jpg">
                 </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Camila Belliard <br/>
+                      <small><em><a class="primary-color">Diretora de Marketing</a></em></small>
+                  </span>
+                  <p class="center">
+                    <a href="http://bit.ly/WhastAppDaCamilaBelliard" target="new" class="bg-color waves-effect waves-light btn-small">
+                      <i class="fab fa-whatsapp"> (21) 99041-2825</i>
+                    </a>
+                  </p>
+                </div>
+              </div>
             </div>
 
             <div class="col s12 m4">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="./assets/img/menon.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Fernando Menon <br/>
-                          <small><em><a class="primary-color">Consultor Sênior</a></em></small>
-                        </span>
-                        <p class="center">
-                          <a href="http://bit.ly/WhastAppDoFernando" target="new" class="bg-color waves-effect waves-light btn-small">
-                            <i class="fab fa-whatsapp"> (47) 99607-1301</i>
-                          </a>
-                        </p>
-                    </div>
+              <div class="card card-avatar">
+                <div class="waves-effect waves-block waves-light">
+                    <img class="activator" src="./assets/img/menon.jpg">
                 </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Fernando Menon <br/>
+                    <small><em><a class="primary-color">Consultor Sênior</a></em></small>
+                  </span>
+                  <p class="center">
+                    <a href="http://bit.ly/WhastAppDoFernando" target="new" class="bg-color waves-effect waves-light btn-small">
+                      <i class="fab fa-whatsapp"> (47) 99607-1301</i>
+                    </a>
+                  </p>
+                </div>
+              </div>
             </div>
 
             <div class="col s12 m4">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="./assets/img/luis.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Luis Ferreira <br/>
-                          <small><em><a class="primary-color">Consultor Independente</a></em></small>
-                        </span>
-                        <p class="center">
-                          <a href="http://bit.ly/WhatsAppDoLuis" target="new" class="bg-color waves-effect waves-light btn-small valign-wrapper">
-                            <i class="fab fa-whatsapp"> (71) 99375-0934</i>
-                          </a>
-                        </p>
-                    </div>
-                </div>
+              <div class="card card-avatar">
+                  <div class="waves-effect waves-block waves-light">
+                      <img class="activator" src="./assets/img/luis.jpg">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Luis Ferreira <br/>
+                      <small><em><a class="primary-color">Consultor Independente</a></em></small>
+                    </span>
+                    <p class="center">
+                      <a href="http://bit.ly/WhatsAppDoLuis" target="new" class="bg-color waves-effect waves-light btn-small valign-wrapper">
+                        <i class="fab fa-whatsapp"> (71) 99375-0934</i>
+                      </a>
+                    </p>
+                  </div>
+              </div>
             </div>
         </div>
     </div>
   </div>
 
-  <!-- <div class="section container" id="team">
-    <h5 class="black-text center"><b>Tem dúvidas? <br>Fale com um dos consultores líderes da minha equipe:</b></h5>
-    <div class="row center">
-      <div class="col s12 m4 l4">
-        <div class="card-panel hoverable grey lighten-5 z-depth-1">
-          <div class="row valign-wrapper">
-            <div class="col s4">
-              <img src="./assets/img/camila.jpg" alt="" class="circle responsive-img">
-            </div>
-            <div class="col s8">
-              <h5 class="black-text">
-                Camila Belliard
-              </h5>
-              <h6 class="black-text">
-                Diretora de Marketing
-              </h6>
-              <a href="http://bit.ly/WhastAppDaCamilaBelliard" target="new" class="green waves-effect waves-light btn-small">
-                <i class="fab fa-whatsapp"> (21) 99041-2825</i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col s12 m4 l4">
-        <div class="card-panel hoverable grey lighten-5 z-depth-1">
-          <div class="row valign-wrapper">
-            <div class="col s4">
-              <img src="./assets/img/menon.jpg" alt="" class="circle responsive-img">
-            </div>
-            <div class="col s8">
-              <h5 class="black-text">
-                Fernando Menon
-              </h5>
-              <h6 class="black-text">
-                Consultor Sênior
-              </h6>
-              <a href="http://bit.ly/WhastAppDoFernando" target="new" class="green waves-effect waves-light btn-small">
-                <i class="fab fa-whatsapp"> (47) 99607-1301</i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col s12 m4 l4">
-        <div class="card-panel hoverable grey lighten-5 z-depth-1">
-          <div class="row valign-wrapper">
-            <div class="col s4">
-              <img src="./assets/img/luis.jpg" alt="" class="circle responsive-img">
-            </div>
-            <div class="col s8">
-              <h5 class="black-text">
-                Luis Ferreira
-              </h5>
-              <h6 class="black-text">
-                Consultor Independente
-              </h6>
-              <a href="http://bit.ly/WhatsAppDoLuis" target="new" class="green waves-effect waves-light btn-small valign-wrapper">
-                <i class="fab fa-whatsapp"> (71) 99375-0934</i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
   <div class="section bg-color" id="aplicativos">
-    <div class="row" style="margin-bottom: 0;">
+    <div class="row container">
       <div class="col s12 m6 l6 center">
         <div class="row">
           <h5 class="white-text"><b>Baixe o aplicativo DreamTrips™ <br>Tenha acesso aos benefícios e recursos exclusivos!</b></h5>
@@ -315,46 +258,10 @@
       <div class="col s12 m6 l6 valign-wrapper">
         <img class="responsive-img" src="./assets/img/dreamtripsapp.gif">
       </div>
-
-      <!-- <div class="col s12 m6 l6 carousel carousel-slider" id="carousel2">
-        <img class="carousel-item responsive-img" src="./assets/img/mockup1.jpg">
-        <img class="carousel-item responsive-img" src="./assets/img/mockup2.jpg">
-        <img class="carousel-item responsive-img" src="./assets/img/mockup3.jpg">
-        <img class="carousel-item responsive-img" src="./assets/img/mockup4.jpg">
-        <img class="carousel-item responsive-img" src="./assets/img/mockup5.jpg">
-        <img class="carousel-item responsive-img" src="./assets/img/mockup6.jpg">
-      </div> -->
     </div>
   </div>
 
   <footer class="page-footer bg-color">
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div> -->
-
     <div class="footer-copyright">
       <div class="container">
         © Copyright 2018 <a class="red-text text-lighten-3">Renata Molinaro</a> - Todos os direitos reservados!

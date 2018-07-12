@@ -55,25 +55,17 @@ body {
   margin-bottom: 0px;
 } */
 
-.input-field .prefix {
-  color: black;
-}
-
 .input-field .prefix.active {
-  color: black !important;
+  color: #10559c !important;
 }
 
 /* label focus color */
 .input-field input:focus + label {
-  color: black !important;
+  color: #10559c !important;
 }
 
 /* label underline focus color */
 .row .input-field input:focus {
-  border-bottom: 1px solid black !important;
-  box-shadow: 0 1px 0 0 black !important
-}
-
-.dropdown-content li>a, .dropdown-content li>span {
-  color: black;
+  border-bottom: 1px solid #10559c !important;
+  box-shadow: 0 1px 0 0 #10559c !important
 }
